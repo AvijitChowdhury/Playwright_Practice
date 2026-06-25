@@ -24,6 +24,30 @@
         "documentation": {}
     },
     {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
         "label": "sync_playwright",
         "importPath": "playwright.sync_api",
         "description": "playwright.sync_api",
@@ -136,15 +160,6 @@
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
         "label": "pytest",
         "kind": 6,
         "isExtraImport": true,
@@ -154,12 +169,12 @@
         "documentation": {}
     },
     {
-        "label": "sys",
+        "label": "json",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
@@ -169,6 +184,24 @@
         "importPath": "os",
         "description": "os",
         "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
@@ -237,6 +270,105 @@
         "description": "tests.8_API_Testing.2_testing_api_with_headers",
         "peekOfCode": "def test_api_get_with_headers(playwright):\n    request = playwright.request.new_context()  # Create a new request context\n    response = request.get(\n        \"https://reqres.in/api/collections/products/records?project_id=32749\",\n        headers={\n            \"Accept\": \"application/json\",\n            \"x-api-key\": \"pub_449ea5f6ded1d18603a8be371b0ca696d6e08b41b19b766e928914c81c2da2d6\",  # Replace with your actual API key\n        },\n    )\n    # Assert the response status code",
         "detail": "tests.8_API_Testing.2_testing_api_with_headers",
+        "documentation": {}
+    },
+    {
+        "label": "test_api_request_context",
+        "kind": 2,
+        "importPath": "tests.8_API_Testing.3_apiReqContext",
+        "description": "tests.8_API_Testing.3_apiReqContext",
+        "peekOfCode": "def test_api_request_context(playwright):\n    # Create a new request context\n    request = playwright.request.new_context()\n    # Make a GET request to the API endpoint\n    response = request.get(\"https://jsonplaceholder.typicode.com/posts/1\")\n    # Assert the response status code\n    assert response.status == 200\n    json_data = response.json()\n    print(json_data)\n    response.dispose()  # Clean up the request context after the test is done",
+        "detail": "tests.8_API_Testing.3_apiReqContext",
+        "documentation": {}
+    },
+    {
+        "label": "get_csv_data",
+        "kind": 2,
+        "importPath": "tests.10_test_data_driven_demo",
+        "description": "tests.10_test_data_driven_demo",
+        "peekOfCode": "def get_csv_data(file_path):\n    data = []\n    with open(file_path, 'r') as file:\n        for line in file:\n            username, password = line.strip().split(',')\n            data.append((username, password))\n    return data\ndef get_json_data(file_path):\n    with open(file_path, 'r') as file:\n        data = json.load(file)",
+        "detail": "tests.10_test_data_driven_demo",
+        "documentation": {}
+    },
+    {
+        "label": "get_json_data",
+        "kind": 2,
+        "importPath": "tests.10_test_data_driven_demo",
+        "description": "tests.10_test_data_driven_demo",
+        "peekOfCode": "def get_json_data(file_path):\n    with open(file_path, 'r') as file:\n        data = json.load(file)\n    return [(item['username'], item['password']) for item in data]\n# @pytest.mark.parametrize(\"username, password\", [\n#     (\"Admin\", \"admin123\"),\n#     (\"Admin\", \"wrongpassword\"),\n#     (\"wronguser\", \"admin123\"),\n# ])\n# @pytest.mark.parametrize(\"username, password\", get_csv_data(file_path))",
+        "detail": "tests.10_test_data_driven_demo",
+        "documentation": {}
+    },
+    {
+        "label": "test_example",
+        "kind": 2,
+        "importPath": "tests.10_test_data_driven_demo",
+        "description": "tests.10_test_data_driven_demo",
+        "peekOfCode": "def test_example(page: Page, Username: str, Password: str) -> None:\n    page.goto(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\")\n    page.get_by_role(\"textbox\", name=\"Username\").click()\n    page.get_by_role(\"textbox\", name=\"Username\").fill(Username)\n    page.get_by_role(\"textbox\", name=\"Password\").click()\n    page.get_by_role(\"textbox\", name=\"Password\").fill(Password)\n    page.get_by_role(\"button\", name=\"Login\").click()",
+        "detail": "tests.10_test_data_driven_demo",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "tests.10_test_data_driven_demo",
+        "description": "tests.10_test_data_driven_demo",
+        "peekOfCode": "file_path = \"./test_data/data.csv\"\ndef get_csv_data(file_path):\n    data = []\n    with open(file_path, 'r') as file:\n        for line in file:\n            username, password = line.strip().split(',')\n            data.append((username, password))\n    return data\ndef get_json_data(file_path):\n    with open(file_path, 'r') as file:",
+        "detail": "tests.10_test_data_driven_demo",
+        "documentation": {}
+    },
+    {
+        "label": "get_json_data",
+        "kind": 2,
+        "importPath": "tests.11_test_data_driven_json",
+        "description": "tests.11_test_data_driven_json",
+        "peekOfCode": "def get_json_data(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        data = json.load(file)\n    return [(item['username'], item['password']) for item in data]\n# Get test data\ntest_data = get_json_data(file_path)\n@pytest.mark.parametrize(\"username, password\", test_data)\ndef test_login_with_json(page: Page, username: str, password: str) -> None:\n    \"\"\"Test login with data from JSON file\"\"\"\n    print(f\"\\nTesting: {username}/{password}\")",
+        "detail": "tests.11_test_data_driven_json",
+        "documentation": {}
+    },
+    {
+        "label": "test_login_with_json",
+        "kind": 2,
+        "importPath": "tests.11_test_data_driven_json",
+        "description": "tests.11_test_data_driven_json",
+        "peekOfCode": "def test_login_with_json(page: Page, username: str, password: str) -> None:\n    \"\"\"Test login with data from JSON file\"\"\"\n    print(f\"\\nTesting: {username}/{password}\")\n    page.goto(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\")\n    page.get_by_role(\"textbox\", name=\"Username\").click()\n    page.get_by_role(\"textbox\", name=\"Username\").fill(username)\n    page.get_by_role(\"textbox\", name=\"Password\").click()\n    page.get_by_role(\"textbox\", name=\"Password\").fill(password)\n    page.get_by_role(\"button\", name=\"Login\").click()\n    expect(page.get_by_role(\"link\", name=\"Dashboard\")).to_be_visible()",
+        "detail": "tests.11_test_data_driven_json",
+        "documentation": {}
+    },
+    {
+        "label": "current_dir",
+        "kind": 5,
+        "importPath": "tests.11_test_data_driven_json",
+        "description": "tests.11_test_data_driven_json",
+        "peekOfCode": "current_dir = os.path.dirname(os.path.abspath(__file__))\nproject_root = os.path.dirname(current_dir)\nfile_path = os.path.join(project_root, \"test_data\", \"data.json\")\ndef get_json_data(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        data = json.load(file)\n    return [(item['username'], item['password']) for item in data]\n# Get test data\ntest_data = get_json_data(file_path)\n@pytest.mark.parametrize(\"username, password\", test_data)",
+        "detail": "tests.11_test_data_driven_json",
+        "documentation": {}
+    },
+    {
+        "label": "project_root",
+        "kind": 5,
+        "importPath": "tests.11_test_data_driven_json",
+        "description": "tests.11_test_data_driven_json",
+        "peekOfCode": "project_root = os.path.dirname(current_dir)\nfile_path = os.path.join(project_root, \"test_data\", \"data.json\")\ndef get_json_data(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        data = json.load(file)\n    return [(item['username'], item['password']) for item in data]\n# Get test data\ntest_data = get_json_data(file_path)\n@pytest.mark.parametrize(\"username, password\", test_data)\ndef test_login_with_json(page: Page, username: str, password: str) -> None:",
+        "detail": "tests.11_test_data_driven_json",
+        "documentation": {}
+    },
+    {
+        "label": "file_path",
+        "kind": 5,
+        "importPath": "tests.11_test_data_driven_json",
+        "description": "tests.11_test_data_driven_json",
+        "peekOfCode": "file_path = os.path.join(project_root, \"test_data\", \"data.json\")\ndef get_json_data(file_path):\n    with open(file_path, 'r', encoding='utf-8') as file:\n        data = json.load(file)\n    return [(item['username'], item['password']) for item in data]\n# Get test data\ntest_data = get_json_data(file_path)\n@pytest.mark.parametrize(\"username, password\", test_data)\ndef test_login_with_json(page: Page, username: str, password: str) -> None:\n    \"\"\"Test login with data from JSON file\"\"\"",
+        "detail": "tests.11_test_data_driven_json",
+        "documentation": {}
+    },
+    {
+        "label": "test_data",
+        "kind": 5,
+        "importPath": "tests.11_test_data_driven_json",
+        "description": "tests.11_test_data_driven_json",
+        "peekOfCode": "test_data = get_json_data(file_path)\n@pytest.mark.parametrize(\"username, password\", test_data)\ndef test_login_with_json(page: Page, username: str, password: str) -> None:\n    \"\"\"Test login with data from JSON file\"\"\"\n    print(f\"\\nTesting: {username}/{password}\")\n    page.goto(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\")\n    page.get_by_role(\"textbox\", name=\"Username\").click()\n    page.get_by_role(\"textbox\", name=\"Username\").fill(username)\n    page.get_by_role(\"textbox\", name=\"Password\").click()\n    page.get_by_role(\"textbox\", name=\"Password\").fill(password)",
+        "detail": "tests.11_test_data_driven_json",
         "documentation": {}
     },
     {
