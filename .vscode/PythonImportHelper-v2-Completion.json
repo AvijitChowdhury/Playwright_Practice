@@ -222,6 +222,24 @@
         "documentation": {}
     },
     {
+        "label": "test_api_get",
+        "kind": 2,
+        "importPath": "tests.8_API_Testing.1_test_api_get",
+        "description": "tests.8_API_Testing.1_test_api_get",
+        "peekOfCode": "def test_api_get(playwright):\n    # Define the API endpoint\n    request = playwright.request.new_context() #creates a new request context using the Playwright library, which allows you to make HTTP requests and interact with APIs in your tests.\n    # Make a GET request to the API endpoint\n    response = request.get(\"https://jsonplaceholder.typicode.com/posts/1\")\n    # we can also add headers, query parameters, or authentication details to the request if needed, but in this case, we are making a simple GET request to retrieve a specific post from the JSONPlaceholder API.\n    # Assert the response status code\n    assert response.status == 200 # Verify the response status code, asserting that it is 200 indicates that the request was successful and the server returned the expected response.\n    json_data = response.json()\n    print(json_data)",
+        "detail": "tests.8_API_Testing.1_test_api_get",
+        "documentation": {}
+    },
+    {
+        "label": "test_api_get_with_headers",
+        "kind": 2,
+        "importPath": "tests.8_API_Testing.2_testing_api_with_headers",
+        "description": "tests.8_API_Testing.2_testing_api_with_headers",
+        "peekOfCode": "def test_api_get_with_headers(playwright):\n    request = playwright.request.new_context()  # Create a new request context\n    response = request.get(\n        \"https://reqres.in/api/collections/products/records?project_id=32749\",\n        headers={\n            \"Accept\": \"application/json\",\n            \"x-api-key\": \"pub_449ea5f6ded1d18603a8be371b0ca696d6e08b41b19b766e928914c81c2da2d6\",  # Replace with your actual API key\n        },\n    )\n    # Assert the response status code",
+        "detail": "tests.8_API_Testing.2_testing_api_with_headers",
+        "documentation": {}
+    },
+    {
         "label": "setup_and_navigate",
         "kind": 2,
         "importPath": "tests.2_test_google",
