@@ -1,0 +1,350 @@
+[
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "expect",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "Page",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "sync_playwright",
+        "importPath": "playwright.sync_api",
+        "description": "playwright.sync_api",
+        "isExtraImport": true,
+        "detail": "playwright.sync_api",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "importPath": "pages.orange_hrm_home_page",
+        "description": "pages.orange_hrm_home_page",
+        "isExtraImport": true,
+        "detail": "pages.orange_hrm_home_page",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "importPath": "pages.orange_hrm_home_page",
+        "description": "pages.orange_hrm_home_page",
+        "isExtraImport": true,
+        "detail": "pages.orange_hrm_home_page",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "importPath": "pages.orange_hrm_login_page",
+        "description": "pages.orange_hrm_login_page",
+        "isExtraImport": true,
+        "detail": "pages.orange_hrm_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "importPath": "pages.orange_hrm_login_page",
+        "description": "pages.orange_hrm_login_page",
+        "isExtraImport": true,
+        "detail": "pages.orange_hrm_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "HomePage",
+        "kind": 6,
+        "importPath": "pages.orange_hrm_home_page",
+        "description": "pages.orange_hrm_home_page",
+        "peekOfCode": "class HomePage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.link_admin = page.get_by_role(\"link\", name=\"Admin\")\n        self.link_pim = page.get_by_role(\"link\", name=\"PIM\")\n        self.link_leave = page.get_by_role(\"link\", name=\"Leave\")\n        self.link_time = page.get_by_role(\"link\", name=\"Time\")\n        self.link_recruitment = page.get_by_role(\"link\", name=\"Recruitment\")\n        self.link_my_info = page.get_by_role(\"link\", name=\"My Info\")\n        self.link_performance = page.get_by_role(\"link\", name=\"Performance\")",
+        "detail": "pages.orange_hrm_home_page",
+        "documentation": {}
+    },
+    {
+        "label": "LoginPage",
+        "kind": 6,
+        "importPath": "pages.orange_hrm_login_page",
+        "description": "pages.orange_hrm_login_page",
+        "peekOfCode": "class LoginPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.username_input = page.get_by_placeholder(\"Username\")\n        self.password_input = page.get_by_placeholder(\"Password\")\n        self.button_login = page.get_by_role(\"button\", name=\"Login\")\n    def enter_username(self, username):\n        self.username_input.fill(username)\n    def enter_password(self, password):\n        self.password_input.fill(password)",
+        "detail": "pages.orange_hrm_login_page",
+        "documentation": {}
+    },
+    {
+        "label": "setup_and_navigate",
+        "kind": 2,
+        "importPath": "tests.2_test_google",
+        "description": "tests.2_test_google",
+        "peekOfCode": "def setup_and_navigate(page: Page):\n    # Appending ?hl=en forces Google into English\n    page.goto(\"https://www.google.com/?hl=en\")\n    # Handle Google's occasional cookie/consent overlays\n    try:\n        consent_button = page.locator('button:has-text(\"Reject all\"), button:has-text(\"Accept all\")').first\n        if consent_button.is_visible(timeout=3000):\n            consent_button.click()\n    except Exception:\n        pass",
+        "detail": "tests.2_test_google",
+        "documentation": {}
+    },
+    {
+        "label": "test_google_homepage_loads_successfully",
+        "kind": 2,
+        "importPath": "tests.2_test_google",
+        "description": "tests.2_test_google",
+        "peekOfCode": "def test_google_homepage_loads_successfully(page: Page):\n    # Assert the page title\n    expect(page).to_have_title(re.compile(r\"Google\"))\n    # Verify the Search text area is visible.\n    search_box = page.get_by_role(\"combobox\", name=re.compile(r\"Search\", re.IGNORECASE))\n    expect(search_box).to_be_visible()\n    expect(search_box).to_be_editable()\n    # Verify the presence of the \"Google Search\" and \"I'm Feeling Lucky\" buttons\n    search_button = page.get_by_role(\"button\", name=\"Google Search\").first\n    lucky_button = page.get_by_role(\"button\", name=\"I'm Feeling Lucky\").first",
+        "detail": "tests.2_test_google",
+        "documentation": {}
+    },
+    {
+        "label": "test_perform_search_and_render_results",
+        "kind": 2,
+        "importPath": "tests.2_test_google",
+        "description": "tests.2_test_google",
+        "peekOfCode": "def test_perform_search_and_render_results(page: Page):\n    search_query = \"Playwright testing framework\"\n    # Locate the search box\n    search_box = page.get_by_role(\"combobox\", name=re.compile(r\"Search\", re.IGNORECASE))\n    # FIX: Type the query out slowly like a human (100 milliseconds between keystrokes)\n    search_box.press_sequentially(search_query, delay=100)\n    # Wait a tiny bit before pressing enter, just like a human would\n    page.wait_for_timeout(500) \n    search_box.press(\"Enter\")\n    # Wait for the URL to change and confirm it contains our query parameters",
+        "detail": "tests.2_test_google",
+        "documentation": {}
+    },
+    {
+        "label": "test_clear_search_input_after_typing",
+        "kind": 2,
+        "importPath": "tests.2_test_google",
+        "description": "tests.2_test_google",
+        "peekOfCode": "def test_clear_search_input_after_typing(page: Page):\n    search_box = page.get_by_role(\"combobox\", name=re.compile(r\"Search\", re.IGNORECASE))\n    # Type something into the search bar\n    search_box.fill(\"Automated UI testing\")\n    expect(search_box).to_have_value(\"Automated UI testing\")\n    # Click the clear (X) button that appears after typing\n    clear_button = page.get_by_role(\"button\", name=re.compile(r\"Clear\", re.IGNORECASE))\n    clear_button.click()\n    # Verify the search box is empty again\n    expect(search_box).to_have_value(\"\")",
+        "detail": "tests.2_test_google",
+        "documentation": {}
+    },
+    {
+        "label": "setup_and_navigate",
+        "kind": 2,
+        "importPath": "tests.3_test_google_new",
+        "description": "tests.3_test_google_new",
+        "peekOfCode": "def setup_and_navigate(page: Page):\n    page.goto(\"https://demo.playwright.dev/todomvc/\")\ndef test_homepage_loads_successfully(page: Page):\n    # Verify the title and the main input box\n    expect(page).to_have_title(re.compile(r\"TodoMVC\"))\n    # Locate elements using placeholder text\n    new_todo_input = page.get_by_placeholder(\"What needs to be done?\")\n    expect(new_todo_input).to_be_visible()\ndef test_add_a_new_todo_item(page: Page):\n    # Locate the input box",
+        "detail": "tests.3_test_google_new",
+        "documentation": {}
+    },
+    {
+        "label": "test_homepage_loads_successfully",
+        "kind": 2,
+        "importPath": "tests.3_test_google_new",
+        "description": "tests.3_test_google_new",
+        "peekOfCode": "def test_homepage_loads_successfully(page: Page):\n    # Verify the title and the main input box\n    expect(page).to_have_title(re.compile(r\"TodoMVC\"))\n    # Locate elements using placeholder text\n    new_todo_input = page.get_by_placeholder(\"What needs to be done?\")\n    expect(new_todo_input).to_be_visible()\ndef test_add_a_new_todo_item(page: Page):\n    # Locate the input box\n    new_todo_input = page.get_by_placeholder(\"What needs to be done?\")\n    # Type out the task and hit enter",
+        "detail": "tests.3_test_google_new",
+        "documentation": {}
+    },
+    {
+        "label": "test_add_a_new_todo_item",
+        "kind": 2,
+        "importPath": "tests.3_test_google_new",
+        "description": "tests.3_test_google_new",
+        "peekOfCode": "def test_add_a_new_todo_item(page: Page):\n    # Locate the input box\n    new_todo_input = page.get_by_placeholder(\"What needs to be done?\")\n    # Type out the task and hit enter\n    new_todo_input.fill(\"Learn Playwright in Python\")\n    new_todo_input.press(\"Enter\")\n    # Playwright provides `get_by_test_id` for highly stable locators\n    todo_items = page.get_by_test_id(\"todo-item\")\n    # Assert that exactly 1 item was added to the list\n    expect(todo_items).to_have_count(1)",
+        "detail": "tests.3_test_google_new",
+        "documentation": {}
+    },
+    {
+        "label": "test_mark_todo_as_completed",
+        "kind": 2,
+        "importPath": "tests.3_test_google_new",
+        "description": "tests.3_test_google_new",
+        "peekOfCode": "def test_mark_todo_as_completed(page: Page):\n    # Setup: Create an item first\n    new_todo_input = page.get_by_placeholder(\"What needs to be done?\")\n    new_todo_input.fill(\"Master Test Automation\")\n    new_todo_input.press(\"Enter\")\n    # Locate the specific item and its checkbox\n    todo_item = page.get_by_test_id(\"todo-item\").first\n    checkbox = todo_item.get_by_role(\"checkbox\")\n    # Action: Click the checkbox\n    checkbox.check()",
+        "detail": "tests.3_test_google_new",
+        "documentation": {}
+    },
+    {
+        "label": "run",
+        "kind": 2,
+        "importPath": "tests.5_rec1",
+        "description": "tests.5_rec1",
+        "peekOfCode": "def run(playwright: Playwright) -> None:\n    browser = playwright.chromium.launch(headless=False)\n    context = browser.new_context()\n    page = context.new_page()\n    page.get_by_role(\"textbox\", name=\"Username\").click()\n    page.get_by_role(\"textbox\", name=\"Username\").fill(\"student\")\n    page.get_by_role(\"textbox\", name=\"Password\").click()\n    page.get_by_role(\"textbox\", name=\"Password\").fill(\"Password123\")\n    page.get_by_role(\"button\", name=\"Submit\").click()\n    page.get_by_role(\"link\", name=\"Log out\").click()",
+        "detail": "tests.5_rec1",
+        "documentation": {}
+    },
+    {
+        "label": "test_examples",
+        "kind": 2,
+        "importPath": "tests.6_test_orange_hrm",
+        "description": "tests.6_test_orange_hrm",
+        "peekOfCode": "def test_examples(page: Page):\n    login_page = LoginPage(page)\n    home_page = HomePage(page)\n    page.goto(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\")\n    # Test Case 1: Verify login functionality\n    login_page.enter_username(\"Admin\")\n    login_page.enter_password(\"admin123\")\n    login_page.click_login_button()\n    # Verify successful login\n    expect(page).to_have_url(\"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index\")",
+        "detail": "tests.6_test_orange_hrm",
+        "documentation": {}
+    },
+    {
+        "label": "test_examples",
+        "kind": 2,
+        "importPath": "tests.7_test_orange_hrm_trace_viewer",
+        "description": "tests.7_test_orange_hrm_trace_viewer",
+        "peekOfCode": "def test_examples(page: Page):\n    login_page = LoginPage(page)\n    home_page = HomePage(page)\n    page.goto(\"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login\")\n    # Test Case 1: Verify login functionality\n    login_page.enter_username(\"Admin\")\n    login_page.enter_password(\"admin123\")\n    login_page.click_login_button()\n    # Verify successful login\n    expect(page).to_have_url(\"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index\")",
+        "detail": "tests.7_test_orange_hrm_trace_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "page",
+        "kind": 2,
+        "importPath": "confest",
+        "description": "confest",
+        "peekOfCode": "def page(context):\n    page = context.new_page()\n    yield page\n    page.close()",
+        "detail": "confest",
+        "documentation": {}
+    },
+    {
+        "label": "browser",
+        "kind": 2,
+        "importPath": "conftest_old",
+        "description": "conftest_old",
+        "peekOfCode": "def browser():\n   with sync_playwright() as p:\n       browser = p.chromium.launch(headless=False)\n       yield browser\n       browser.close()\n@pytest.fixture\ndef page(browser):\n   page = browser.new_page()\n   yield page\n   page.close()",
+        "detail": "conftest_old",
+        "documentation": {}
+    },
+    {
+        "label": "page",
+        "kind": 2,
+        "importPath": "conftest_old",
+        "description": "conftest_old",
+        "peekOfCode": "def page(browser):\n   page = browser.new_page()\n   yield page\n   page.close()",
+        "detail": "conftest_old",
+        "documentation": {}
+    }
+]
